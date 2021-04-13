@@ -4,4 +4,5 @@ pwd
 . ./venv/bin/activate
 pip install -r requirements.txt
 pwd
+export DJANGO_SETTINGS_MODULE=app.settings
 python3 manage.py migrate
