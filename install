@@ -1,4 +1,4 @@
-echo "Installing....!!!!!0-qqqq-"
+echo "Installing....!!!!!0-qqdddqq-"
 python3 -m venv venv
 pwd
 . ./venv/bin/activate
