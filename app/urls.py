@@ -8,10 +8,11 @@ from main.views import food
 
 urlpatterns = [
     path('', index),
-    path('index', index),
-    path('contact', contact),
-    path('about', about),
-    path('cars', cars),
-    path('food', food),
-    path('admin.html', admin.site.urls),
+    path('index',index),
+    path('contact',contact),
+    path('about',about),
+    path('cars',cars),
+    path('food',food),
+    path('admin/', admin.site.urls),
+
 ]
