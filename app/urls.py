@@ -7,6 +7,7 @@ from main.views import cars
 from main.views import food
 
 urlpatterns = [
+    path('', index),
     path('index',index),
     path('contact',contact),
     path('about',about),
